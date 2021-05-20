@@ -1,0 +1,129 @@
+       body {
+            margin: 0px;
+            padding: 0px;
+            background: url(https://media-exp1.licdn.com/dms/image/C511BAQGoML601ziPig/company-background_10000/0/1571114000790?e=2159024400&v=beta&t=l-DI-u4XNkGgTFqXcGQbG_ozBJlIPqkFvqlN3RNv_YQ);
+            
+            color: white;
+            font-family: 'Merriweather', serif;
+
+
+        }
+
+
+        .left {
+            /* border: 2px solid whitesmoke; */
+            display: inline-block;
+            position: absolute;
+            top: 15px;
+            left: 25px;
+            width: 220px;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .left img {
+            width: 75px;
+            height: 45px;
+            filter: invert(100%);
+            display: block;
+            margin: 2px auto;
+            /* padding: 8px 10px 0px 26px; */
+
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 45px;
+        }
+
+        .mid {
+            border: 2px solid white;
+            display: block;
+            width: 50%;
+            background-color: black;
+            margin: 27px auto;
+            text-align: center;
+            /* font-size: 50px; */
+
+        }
+
+        .right {
+            /* border: 2px solid khaki; */
+            display: inline-block;
+            position: absolute;
+            top: 30px;
+            right: 45px;
+
+
+
+        }
+
+        .btn {
+            margin: 5px;
+            padding: 5px;
+            width: 100px;
+            background-color: rgb(24, 23, 23);
+            border: 2px solid white;
+            color: white;
+            border-radius: 8px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(94, 93, 93);
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 25px;
+            color: azure;
+
+
+        }
+
+        .navbar li a:hover {
+            color: rgb(150, 150, 184);
+            text-decoration: underline;
+        }
+
+        .container {
+            border: 2px dotted white;
+            margin: 115px 52px;
+            padding: 29px 28px;
+            background-color: rgb(5, 10, 17);
+            color: white;
+            border-radius: 20px;
+            width: 45%;
+            height: 400px;
+        }
+
+        .form-group input {
+            text-align: center;
+            padding: 3px;
+            display: block;
+            margin: 8px auto;
+            width: 300px;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 17px;
+            font-family: 'Merriweather', serif;
+            font-family: 'Dosis', sans-serif;
+
+        }
+
+        .container h1 {
+            font-family: 'Merriweather', serif;
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            margin: 25px auto;
+            width: 310px;
+        }
